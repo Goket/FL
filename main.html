@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/main.css" >
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!--<link rel="stylesheet" href="assets/css/forms.css" >-->
+
+
+</head>
+<body>
+
+<nav class="navbar nav-fl" >
+    <div class="container-fluid">
+
+            <a class="navbar-brand brand-logo-fl" href="#" >FL</a>
+        <ul>
+           <li> <a  id="btn-click" type="button" class="nav-btn" >Sign Up</a></li>
+            <li><a href="#" class="nav-btn">Featured</a></li>
+            <li><a href="#" class="nav-btn">Fashion items<span class="caret"></span></a></li>
+        </ul>
+
+    </div>
+</nav>
+
+
+<!-- Signup modal-->
+<div id="play-modal" class="play-modal">
+    <!-- Modal section is hidden when the page loads-->
+
+    <div class="col-md-5 col-md-offset-1">
+        <div class="pane pane-default">
+            <div class="modal-close"> &times;
+            </div>
+            <div class="pane-heading"> <h2>Sign Up</h2>
+                <hr class="hr-line">
+            </div>
+
+            <div class="pane-body">
+
+                <form id="signup-form" method="post" action="signup.php">
+
+                    <div class="form-group">
+
+                        <input type="text" name="email" class="form-control" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="text" name="password" class="form-control" placeholder="Password">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="cpassword" class="form-control" placeholder="Confirm Password">
+                    </div>
+                    <div class="button" type="submit">Sign Up</div> or <a id="login-click">Login</a>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Login Modal-->
+
+<div id="login-modal" class="play-modal">
+    <div class="col-md-5 col-md-offset-1">
+       <div class="pane pane-default">
+        <div class="modal-close"> &times;
+            </div>
+            <div class="pane-heading"> <h2>Login</h2>
+                <hr class="hr-line">
+            </div>
+            <div class="pane-body">
+                <form id="login-form" method="post" action="login.php">
+                    <div class="form-group">
+
+                        <input type="text" name="email" class="form-control" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="text" name="password" class="form-control" placeholder="Password">
+                    </div>
+
+                
+                    <div class="button" type="submit">Login </div> or <a >Forgot Password</a>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--For banner-->
+<div>
+    </div>
+
+<div class="bar-one">
+    <div class="test" style="border-bottom: 50px solid #aeb231;" >
+        <p>Text</p>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round">
+            </span>
+        </label>
+    </div>
+    <div class="line" style="background-color:#aeb231">
+
+    </div>
+</div>
+
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-2" >
+    <ul class="list-group" style="margin-left:15px;">
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item ">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+
+    </ul>
+</div>
+<!--                   <span class="badge-elems">1205</span>-->
+
+
+
+<div class="col-md-2 col-md-offset-1  col-sm-4 col-xs-4 ">
+    <!--                    <a class="image-margin">-->
+    <div class="img">
+        <img src="images/01.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+    <!--                 </a>-->
+</div>
+
+
+<div class="col-md-2  col-sm-4 col-xs-4 ">
+    <!--                    <a class="image-margin">-->
+    <div class="img">
+        <img src="images/02.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+    <!--                 </a>-->
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-4 ">
+   
+    <div class="img">
+        <img src="images/03.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+    
+</div>
+
+<div class="col-md-2 col-md-4 col-sm-4  ">
+                     
+    <div class="img">
+        <img src="images/04.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+   
+</div>
+</div>
+
+
+
+
+<div class="bar-one">
+    <div class="test" style="border-bottom: 50px solid coral"; >
+        <p> Text</p>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round">
+            </span>
+        </label>
+    </div>
+    <div class="line" style="background-color:coral;">
+
+    </div>
+</div>
+
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-2" >
+    <ul class="list-group" style="margin-left:15px;">
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item ">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+
+    </ul>
+</div>
+<!--                   <span class="badge-elems">1205</span>-->
+
+
+
+<div class="col-md-2 col-md-offset-1  col-sm-4 col-xs-4 ">
+    <!--                    <a class="image-margin">-->
+    <div class="img">
+        <img src="images/01.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+    <!--                 </a>-->
+</div>
+
+
+<div class="col-md-2  col-sm-4 col-xs-4 ">
+    <!--                    <a class="image-margin">-->
+    <div class="img">
+        <img src="images/02.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+    <!--                 </a>-->
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-4 ">
+   
+    <div class="img">
+        <img src="images/03.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+    
+</div>
+
+<div class="col-md-2 col-md-4 col-sm-4  ">
+                     
+    <div class="img">
+        <img src="images/04.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+   
+</div>
+</div>
+
+
+
+
+<div class="bar-one">
+    <div class="test" style="border-bottom: 50px solid #aeb231;" >
+        <p> Text</p>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round">
+            </span>
+        </label>
+    </div>
+    <div class="line" style="background-color:#aeb231">
+
+    </div>
+</div>
+
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-2" >
+    <ul class="list-group" style="margin-left:15px;">
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item ">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+
+    </ul>
+</div>
+<!--                   <span class="badge-elems">1205</span>-->
+
+
+
+<div class="col-md-2 col-md-offset-1  col-sm-4 col-xs-4 ">
+    <!--                    <a class="image-margin">-->
+    <div class="img">
+        <img src="images/01.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+    <!--                 </a>-->
+</div>
+
+
+<div class="col-md-2  col-sm-4 col-xs-4 ">
+    <!--                    <a class="image-margin">-->
+    <div class="img">
+        <img src="images/02.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+    <!--                 </a>-->
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-4 ">
+   
+    <div class="img">
+        <img src="images/03.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+    
+</div>
+
+<div class="col-md-2 col-md-4 col-sm-4  ">
+                     
+    <div class="img">
+        <img src="images/04.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+   
+</div>
+</div>
+
+
+<div class="bar-one">
+    <div class="test" s>
+        <p>Text</p>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round">
+            </span>
+        </label>
+    </div>
+    <div class="line" >
+
+    </div>
+</div>
+
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-2" >
+    <ul class="list-group" style="margin-left:15px;">
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item ">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+        <a href="#" class="list-group-item">Some text</a>
+
+    </ul>
+</div>
+<!--                   <span class="badge-elems">1205</span>-->
+
+
+
+<div class="col-md-2 col-md-offset-1  col-sm-4 col-xs-4 ">
+    <!--                    <a class="image-margin">-->
+    <div class="img">
+        <img src="images/01.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+    <!--                 </a>-->
+</div>
+
+
+<div class="col-md-2  col-sm-4 col-xs-4 ">
+    <!--                    <a class="image-margin">-->
+    <div class="img">
+        <img src="images/02.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+    <!--                 </a>-->
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-4 ">
+   
+    <div class="img">
+        <img src="images/03.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+    
+</div>
+
+<div class="col-md-2 col-md-4 col-sm-4  ">
+                     
+    <div class="img">
+        <img src="images/04.jpg" alt="">
+        <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+        </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+        </a></span> <a class="elems-txt">Check Store</a> </div>
+    </div>
+   
+</div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid">
+        <div class="segment-strip1">
+            <div class="form-group"  style="padding:12px 0 0 5px">
+                <label><h3 style="line-height:1px">Clothing</h3></label>
+                    <select name="gender" class="form-control segment-form" >
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2 ">
+            <div class="">
+
+                <ul class="list-group">
+                    <a href="#" class="list-group-item">Some text</a>
+                    <a href="#" class="list-group-item ">Some text</a>
+                    <a href="#" class="list-group-item">Some text</a>
+                    <a href="#" class="list-group-item">Some text</a>
+                    <a href="#" class="list-group-item">Some text</a>
+                    <a href="#" class="list-group-item">Some text</a>
+
+                </ul>
+            </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="thumbnail ">
+                    <img src="images/02.jpg" alt="" >
+
+                    <p class="caption caption-fl"  >
+                        <span><a class="glyphicon glyphicon-heart-empty " >
+                        </a><span class="badge">120</span></span>
+                        <a>VISIT STORE ></a>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="col-md-2">
+                <div class="thumbnail ">
+                    <img src="images/03.jpg" alt=""  style=" height:181px;" >
+                    <p class="caption caption-fl"  >
+                        <span><a class="glyphicon glyphicon-heart-empty " >
+                        </a></span><span class="badge">120</span>
+                        <a>VISIT STORE ></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="thumbnail thumb-fl">
+                    <img src="images/04.jpg" alt=""  style=" height:181px;" >
+                    <p class="caption caption-fl"  >
+                        <span><a class="glyphicon glyphicon-heart-empty " >
+                        </a></span><span class="badge">120</span>
+                        <a>VISIT STORE ></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="thumbnail thumb-fl">
+                    <img src="images/05.jpg" alt="" >
+                    <p class="caption caption-fl"  >
+                        <span><a class="glyphicon glyphicon-heart-empty " >
+                        </a></span><span class="badge">120</span>
+                        <a>VISIT STORE ></a>
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <img src="images/02.jpg" alt="" >
+                    <p class="caption caption-fl"  >
+                        <span><a class="glyphicon glyphicon-heart-empty " >
+                        </a></span><span class="badge">120</span>
+                        <a>VISIT STORE ></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a style="border: 2px solid coral; width: 60px; height:25px; border-radius:6px; float: right; text-align: center; color: #222222; text-decoration: none; font-weight: 300px;"> More</a>
+            <!--<button class="btn btn-primary">more</button>-->
+        </div>
+    </div>
+
+<!--Segment 2-->
+
+<div class="container-fluid">
+    <div class="segment-strip2">
+        <div class="form-group"  style="padding:12px 0 0 5px">
+            <label><h3 style="line-height:1px">Bag</h3></label>
+            <select name="gender" class="form-control segment-form" >
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2 ">
+            <div class="panel panel-default">
+
+                <ul class="list-group">
+                    <a href="#" class="list-group-item">Some text</a>
+                    <a href="#" class="list-group-item ">Some text</a>
+                    <a href="#" class="list-group-item">Some text</a>
+                    <a href="#" class="list-group-item">Some text</a>
+                    <a href="#" class="list-group-item">Some text</a>
+                    <a href="#" class="list-group-item">Some text</a>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="thumbnail thumb-fl">
+                <img src="images/02.jpg" alt="" >
+                <p class="caption caption-fl"  >
+                        <span><a class="glyphicon glyphicon-heart-empty " >
+                        </a></span><span class="badge">120</span>
+                    <a>VISIT STORE ></a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="col-md-2">
+            <div class="thumbnail thumb-fl">
+                <img src="images/03.jpg" alt=""  style=" height:181px;" >
+                <p class="caption caption-fl"  >
+                        <span><a class="glyphicon glyphicon-heart-empty " >
+                        </a></span><span class="badge">120</span>
+                    <a>VISIT STORE ></a>
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="thumbnail thumb-fl">
+                <img src="images/04.jpg" alt=""  style=" height:181px;" >
+                <p class="caption caption-fl"  >
+                        <span><a class="glyphicon glyphicon-heart-empty " >
+                        </a></span><span class="badge">120</span>
+                    <a>VISIT STORE ></a>
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="thumbnail thumb-fl">
+                <img src="images/05.jpg" alt="" >
+                <p class="caption caption-fl"  >
+                        <span><a class="btn glyphicon glyphicon-heart-empty " >
+                        </a></span><span class="badge">120</span>
+                    <a>VISIT STORE ></a>
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="col-md-2">
+            <div class="thumbnail">
+                <img src="images/02.jpg" alt="" >
+                <p class="caption caption-fl">
+                        <span ><a class=" glyphicon glyphicon-heart-empty " data-bind="click: registerClick, visible:oneClick"></a></span>
+                    <span class="badge" data-bind="text: numberOfClicks">&nbsp;</span>
+                    <a >VISIT STORE ></a>
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <a style="border: 2px solid #aeb231; width: 60px; height:25px; border-radius: 6px; float: right; text-align: center; margin-top:-3px;color: #222222; text-decoration: none; font-weight: 300px;"> More</a>
+        <!--<button class="btn btn-primary">more</button>-->
+    </div>
+</div>
+</div>
+
+
+
+
+
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

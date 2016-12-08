@@ -1,6 +1,19 @@
 /**
  * Created by hp on 10/22/2016.
  */
+
+$(window).scroll(function(){
+            var y =$(this).scrollTop();
+            if(y>=45)   {
+                $('#nava').addClass('navb');
+                 }
+             else{
+                $('#nava').removeClass('navb');
+            }
+    })
+
+
+
 $(function(){
     /*this is is what happens when the button is fired*/
     $('#btn-click').click(function(){
@@ -52,3 +65,37 @@ $(function(){
     })
 
 })
+
+//form upload
+
+$(function(){
+    
+    $('#new-upload').click(function(){
+        
+        $('#new').hide();
+        $('#form').show();
+        
+    })
+       
+})
+
+
+//show-preview
+
+$(function(){
+    $('#preview').click(function(){
+        
+        $('#form').hide();
+        $('#pre').show();
+        
+    })
+})
+
+
+$(function(){
+    $('#edit').click(function(){
+        $('#pre').hide();
+        $('#form').show();
+    })
+})
+

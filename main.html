@@ -31,8 +31,6 @@
 
 <!-- Signup modal-->
 <div id="play-modal" class="play-modal">
-    <!-- Modal section is hidden when the page loads-->
-
     <div class="col-md-5 col-md-offset-1">
         <div class="pane pane-default">
             <div class="modal-close"> &times;
@@ -58,7 +56,10 @@
                     <div class="form-group">
                         <input type="text" name="cpassword" class="form-control" placeholder="Confirm Password">
                     </div>
-                    <div class="button" type="submit">Sign Up</div> or <a id="login-click">Login</a>
+                    <div class="signup-btn" type="submit">Sign Up</div> 
+                    <div><br/></div>
+                    <div class="login-btn" id="login-click" type="submit">Login</div> 
+<!--                    <a id="login-click">Login</a>-->
 
                 </form>
 
@@ -68,76 +69,67 @@
 </div>
 
 <!--Login Modal-->
-
 <div id="login-modal" class="play-modal">
     <div class="col-md-5 col-md-offset-1">
        <div class="pane pane-default">
-        <div class="modal-close"> &times;
-            </div>
-            <div class="pane-heading"> <h2>Login</h2>
-                <hr class="hr-line">
-            </div>
-            <div class="pane-body">
-                <form id="login-form" method="post" action="login.php">
-                    <div class="form-group">
+            <div class="modal-close"> &times;</div>
+                <div class="pane-heading"> <h2>Login</h2>
+                    <hr class="hr-line">
+                </div>
+                    <div class="pane-body">
 
-                        <input type="text" name="email" class="form-control" placeholder="Email">
+                        <form id="login-form" method="post" action="login.php">
+                            <div class="form-group">
+                                <input type="text" name="email" class="form-control" placeholder="Email">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="password" class="form-control" placeholder="Password">
+                            </div>
+
+
+                            <div class="login-btn" type="submit">Login </div> 
+                            <br/>
+                            <br/>
+                             <a>Forgot Password</a>
+
+                        </form>
                     </div>
-
-                    <div class="form-group">
-
-                        <input type="text" name="password" class="form-control" placeholder="Password">
-                    </div>
-
-                
-                    <div class="button" type="submit">Login </div> or <a >Forgot Password</a>
-                    
-                </form>
             </div>
         </div>
-    </div>
-</div>
+     </div>
 
 
 
 <!--For banner-->
-<div>
-<div id="wrapper">
+
                      
     <div class="container-fluid">
         <div class="row">
           
              
-            <div class="side-banner">
-                 <div class="col-md-3">
-                  <img src="images/fbanner.jpg">
-                </div>
+            
+             
+                  <img class="side-banner" src="images/fbanner.jpg">                  
+                
+               
             </div>
               
-               <div class="banner-text">
-                   
-                    <div class="col-md-4">
-                        <p>hello</p>
-                    </div>
+               
                </div>
                   
-           
-            
-        </div>
-    </div>
-</div>
- </div>
- 
- 
 <!-- The body section starts here-->
+<!--Clothing-->
 
 <div class="bar-one">
     <div class="test">
         <p>Clothing</p>
         <label class="switch">
-            <input type="checkbox">
+            <input type="checkbox"> hi
+<!--
             <span class="slider round">
             </span>
+-->
         </label>
     </div>
     <div class="line">
@@ -147,7 +139,7 @@
 
 
 
-<div id="wrapper">
+<div id="f-wrapper">
    
    <div class="side-content">
                 
@@ -217,6 +209,78 @@
         </div>
     </div>
 </div>
+
+<div id="m-wrapper">
+   
+   <div class="side-content">
+                
+                <div>
+                  <a class="side-products" id="new-upload" type="button" href="#">Blazers </a>
+               </div>
+       
+                <div>
+                    <a class="side-products"href="#">Cashmmere </a>
+                </div>
+                <div>
+                    <a class="side-products"href="#">Jeans </a>
+                </div>
+                <div>
+                    <a class="side-products"href="#">Sweat Shirt </a>
+                </div>
+                
+            </div>
+            
+    <div class="container-fluid">
+        <div class="row">
+           <div class="content-display">
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <div class="img">
+                    <img src="images/01.jpg" alt="">
+                    <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+                    </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+                    </a></span> <a class="elems-txt">Check Store</a> 
+                   </div>
+                </div>
+               </div>
+               
+               <div class="col-md-3 col-sm-3 col-xs-3">
+                <div class="img">
+                    <img src="images/04.jpg" alt="">
+                    <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+                    </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+                    </a></span> <a class="elems-txt">Check Store</a> 
+                   </div>
+                </div>
+               </div>
+               
+               <div class="col-md-3 col-sm-3 col-xs-3">
+                <div class="img">
+                    <img src="images/02.jpg" alt="">
+                    <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+                    </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+                    </a></span> <a class="elems-txt">Check Store</a> 
+                   </div>
+                </div>
+               </div>
+               
+               <div class="col-md-3 col-sm-3 col-xs-3">
+                <div class="img">
+                    <img src="images/03.jpg" alt="">
+                    <div class="caption-fl"> <span><a class="glyphicon glyphicon-heart-empty glyph-elems">
+                    </a></span> <span class="badge-elems">120</span>  <span><a class="glyphicon glyphicon-gift bag-elems">
+                    </a></span> <a class="elems-txt">Check Store</a> 
+                   </div>
+                </div>
+               </div>
+               
+               
+               
+           </div>
+            
+        </div>
+    </div>
+</div>
+
 
 
 
@@ -303,6 +367,7 @@
         </div>
     </div>
 </div>
+
 
 
 

@@ -78,10 +78,10 @@ li{
 /*banner tinz*/
 
 .side-banner{
-    width: 45%;
-    height:450px;
-    display: inline-block
-    overflow-y: hidden;
+    width: 98%;
+    height:350px;
+/*    display: inline-block*/
+/*    overflow-y: hidden;*/
 /*    position: absolute;*/
 /*    z-index: 1;*/
 /*    background-color: firebrick;*/
@@ -90,7 +90,8 @@ li{
 
 .banner-text{
     display: inline-block;
-    margin-left: 1%;
+/*    margin-left: 60%;*/
+/*    margin-top: -40px;*/
 }
 /*Pane*/
 .pane{
@@ -120,7 +121,7 @@ li{
 
 .hr-line{
     height: 1px;
-    background: #800000;
+    background: #69acbd;
     width: 50px;
     margin-top: 3px;
 }
@@ -133,7 +134,7 @@ li{
 
 .button{
     padding: 10px 20px;
-    background-color: #800000;
+    background-color: #69acbd;
     border-radius: 3px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -144,7 +145,45 @@ li{
 }
 
 .button:hover{
-    background: #ffb3b3;
+    background: #2d6a9f
+/*    background: #ffb3b3;*/
+}
+
+.signup-btn{
+    padding: 10px 90px;
+    background-color: darkseagreen;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #ffffff;
+}
+.signup-btn:hover {
+    background-color: yellowgreen;
+    opacity: 0.7;
+	
+}
+
+.button:hover{
+    background: #2d6a9f
+/*    background: #ffb3b3;*/
+}
+
+.login-btn{
+    padding: 10px 95px;
+    background-color: #69acbd;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #ffffff;
+}
+.login-btn:hover {
+	background-color: #2d6a9f;
 }
 
 
@@ -179,7 +218,7 @@ li{
     margin-bottom: 3px;
     /*    border: none;*/
     padding: 1px 5px;
-    background-color: #800000;
+    background-color: #69acbd;
     border-radius: 3px;
     display: inline-block;
     cursor: pointer;
@@ -187,7 +226,7 @@ li{
 }
 
 .modal-close:hover{
-    background: #ffb3b3;
+    background: #2d6a9f;
 }
 
 
@@ -204,7 +243,7 @@ li{
 /*Hide default checkbox*/
 
 .switch input{
-    display: none
+/*    display: none*/
 }
 
 .slider {

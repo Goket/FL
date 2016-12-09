@@ -4,6 +4,12 @@ body{
     margin-right:25px!important;
 */
     background-color: #f7fafa !important;
+/*
+    background-image: url("/images/bak.jpg");
+    background-size: contain;
+*/
+    
+
 }
 
 
@@ -73,6 +79,12 @@ li{
     font-family: 'Segoe UI', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
     cursor:pointer;
+}
+
+.logo img{
+   
+    width: 25px!important;
+    height: 25px!important;
 }
 
 /*banner tinz*/
@@ -237,13 +249,14 @@ li{
     width: 80px;
     height: 28px;
     margin-bottom: 24px;
+    
 
 }
 
 /*Hide default checkbox*/
 
 .switch input{
-/*    display: none*/
+    display: none
 }
 
 .slider {
@@ -256,7 +269,8 @@ li{
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: 4s;
-    content:'male';
+    content:attr(data-off);
+    backface-visibility: hidden;
 
 }
 
@@ -288,6 +302,7 @@ input:checked +.slider:before{
 
 .slider.round{
     border-radius:28px;
+    
 }
 
 .slider.round:before {
